@@ -14,6 +14,8 @@ import sys
 from datetime import datetime, timezone
 from pathlib import Path
 
+import pretty_report
+
 HERE = Path(__file__).parent
 
 
@@ -48,6 +50,10 @@ def main():
     out_path.parent.mkdir(parents=True, exist_ok=True)
     out_path.write_text(json.dumps(report, ensure_ascii=False, indent=2), encoding="utf-8")
     print(f"Informe combinado escrito en {out_path}")
+
+    md_path = out_path.with_suffix(".md")
+    md_path.write_text(pretty_report.render(report), encoding="utf-8")
+    print(f"Informe legible escrito en {md_path}")
 
 
 if __name__ == "__main__":

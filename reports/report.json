@@ -1,0 +1,160 @@
+{
+  "timestamp": "2026-07-05T21:33:43.577320+00:00",
+  "repo": "../bdc/BdC",
+  "grafo": {
+    "n_files": 18,
+    "n_nodes_validos": 18,
+    "n_ficheros_con_error_frontmatter": 0,
+    "avg_nodos_conectados": 6.111,
+    "n_huerfanos": 2,
+    "tasa_huerfanos": 0.111,
+    "huerfanos": [
+      "index",
+      "log"
+    ],
+    "densidad_enlaces_promedio": 0.0292,
+    "densidad_por_nodo": {
+      "concepts/campo-continuo": 0.01818,
+      "concepts/doble-grado-ingenieria-informatica-matematicas": 0.04938,
+      "concepts/ecuacion-integral": 0.01111,
+      "concepts/ecuaciones-diferenciales-ii": 0.08421,
+      "concepts/intervalo-maximal": 0.0198,
+      "concepts/licencia-creative-commons-by-nc-nd-4-0": 0.0137,
+      "concepts/solucion-maximal": 0.016,
+      "concepts/soluciones-constantes-sistemas": 0.00877,
+      "concepts/teorema-de-bolzano": 0.0084,
+      "concepts/teorema-de-prolongacion": 0.02256,
+      "concepts/unicidad-de-soluciones": 0.01835,
+      "concepts/unicidad-global": 0.01905,
+      "entities/los-del-dgiim": 0.07018,
+      "entities/rafael-ortega": 0.08163,
+      "entities/universidad-de-granada": 0.04167,
+      "index": 0.0,
+      "log": 0.0,
+      "sources/ex1-ecuaciones-diferenciales-ii-examen": 0.04268
+    },
+    "profundidad_arbol_desde_index": 0,
+    "n_etiquetas_unicas": 41,
+    "distancia_hamming_promedio_tags": 4.869,
+    "tamano_medio_palabras": 105.2
+  },
+  "estructura": {
+    "ficheros_base": {
+      "AGENTS.md": true,
+      "okf/log.md": true,
+      "okf/index.md": true
+    },
+    "tasa_markdown_valido": 1.0,
+    "n_ficheros_analizados": 18,
+    "detalle_frontmatter": [
+      {
+        "file": "concepts/campo-continuo.md",
+        "frontmatter_ok": true,
+        "missing_fields": [],
+        "tipo_valido": true
+      },
+      {
+        "file": "concepts/doble-grado-ingenieria-informatica-matematicas.md",
+        "frontmatter_ok": true,
+        "missing_fields": [],
+        "tipo_valido": true
+      },
+      {
+        "file": "concepts/ecuacion-integral.md",
+        "frontmatter_ok": true,
+        "missing_fields": [],
+        "tipo_valido": true
+      },
+      {
+        "file": "concepts/ecuaciones-diferenciales-ii.md",
+        "frontmatter_ok": true,
+        "missing_fields": [],
+        "tipo_valido": true
+      },
+      {
+        "file": "concepts/intervalo-maximal.md",
+        "frontmatter_ok": true,
+        "missing_fields": [],
+        "tipo_valido": true
+      },
+      {
+        "file": "concepts/licencia-creative-commons-by-nc-nd-4-0.md",
+        "frontmatter_ok": true,
+        "missing_fields": [],
+        "tipo_valido": true
+      },
+      {
+        "file": "concepts/solucion-maximal.md",
+        "frontmatter_ok": true,
+        "missing_fields": [],
+        "tipo_valido": true
+      },
+      {
+        "file": "concepts/soluciones-constantes-sistemas.md",
+        "frontmatter_ok": true,
+        "missing_fields": [],
+        "tipo_valido": true
+      },
+      {
+        "file": "concepts/teorema-de-bolzano.md",
+        "frontmatter_ok": true,
+        "missing_fields": [],
+        "tipo_valido": true
+      },
+      {
+        "file": "concepts/teorema-de-prolongacion.md",
+        "frontmatter_ok": true,
+        "missing_fields": [],
+        "tipo_valido": true
+      },
+      {
+        "file": "concepts/unicidad-de-soluciones.md",
+        "frontmatter_ok": true,
+        "missing_fields": [],
+        "tipo_valido": true
+      },
+      {
+        "file": "concepts/unicidad-global.md",
+        "frontmatter_ok": true,
+        "missing_fields": [],
+        "tipo_valido": true
+      },
+      {
+        "file": "entities/los-del-dgiim.md",
+        "frontmatter_ok": true,
+        "missing_fields": [],
+        "tipo_valido": true
+      },
+      {
+        "file": "entities/rafael-ortega.md",
+        "frontmatter_ok": true,
+        "missing_fields": [],
+        "tipo_valido": true
+      },
+      {
+        "file": "entities/universidad-de-granada.md",
+        "frontmatter_ok": true,
+        "missing_fields": [],
+        "tipo_valido": true
+      },
+      {
+        "file": "index.md",
+        "frontmatter_ok": true,
+        "missing_fields": [],
+        "tipo_valido": true
+      },
+      {
+        "file": "log.md",
+        "frontmatter_ok": true,
+        "missing_fields": [],
+        "tipo_valido": true
+      },
+      {
+        "file": "sources/ex1-ecuaciones-diferenciales-ii-examen.md",
+        "frontmatter_ok": true,
+        "missing_fields": [],
+        "tipo_valido": true
+      }
+    ]
+  }
+}
